@@ -32,8 +32,17 @@
         h1 {
             font-size: 2.5rem;
             letter-spacing: 2px;
-            margin-bottom: 30px;
+            margin-top: 10px;
+            margin-bottom: 5px;
             text-transform: uppercase;
+        }
+
+        .creditos {
+            font-size: 1.2rem;
+            color: #888888; /* Cinza para dar um estilo de sub-crédito */
+            margin-top: 0;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
         }
 
         .animacao-container {
@@ -82,15 +91,18 @@
             padding: 20px;
             border-top: 1px solid #333333;
             font-size: 1.2rem;
+            line-height: 1.6;
         }
 
-        footer a {
-            color: #ff3333;
-            text-decoration: underline;
-        }
-
-        footer a:hover {
-            color: #ff6666;
+        .link-copiar {
+            display: inline-block;
+            background-color: #222222;
+            padding: 5px 10px;
+            border: 1px dashed #ff3333;
+            color: #ff9999;
+            margin-top: 5px;
+            font-family: monospace; /* Fonte estilo código para facilitar a cópia */
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -102,6 +114,9 @@
 
         <!-- Título principal -->
         <h1>COMBATE LOUCO: O Madness Combat chegou ao Brasil!</h1>
+        
+        <!-- Crédito ao criador original -->
+        <p class="creditos">Baseado na incrivel obra de Krinkels</p>
 
         <!-- Container da animação Flash (.swf) -->
         <div class="animacao-container">
@@ -122,10 +137,11 @@
             não gostou do site? problema é seu! rsrs zueira. de criticas possitivas ou negativas pro meu site pra eu tentar melhorar: <a href="mailto:limaongarchives@gmail.com">limaongarchives@gmail.com</a>
         </p>
 
-        <!-- Rodapé com o aviso do Ruffle -->
+        <!-- Rodapé com o novo aviso do Ruffle -->
         <footer>
-            esse site só funciona com a extensão do Ruffle! baixe a extensão do Ruffle bem aqui: 
-            <a href="https://chromewebstore.google.com/detail/ruffle-flash-emulator/donbcfbmhbcapadipfkeojnmajbakjdc?hl=pt-BR" target="_blank">Clique aqui para baixar o Ruffle</a>
+            se voce não tem a extensão do ruffle no google, copie isso aqui e baixe, pois voce VAI precisar:
+            <br>
+            <span class="link-copiar">https://chromewebstore.google.com/detail/ruffle-flash-emulator/donbcfbmhbcapadipfkeojnmajbakjdc</span>
         </footer>
     </div>
 
