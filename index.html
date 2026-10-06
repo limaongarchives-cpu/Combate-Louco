@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combate Louco</title>
+    
+    <!-- Script do Ruffle: Garante que o emulador carregue direto pelo GitHub -->
+    <script src="https://unpkg.com"></script>
+    
+    <style>
+        body {
+            background-color: #000000; /* Fundo 100% preto */
+            color: #ffffff;            
+            font-family: 'Impact', sans-serif; 
+            text-align: center;        
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .animacao-container {
+            margin: 20px auto;
+            width: 550px;
+            height: 400px;
+            background-color: #111111; 
+            border: 2px solid #ff0000;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Força o player do Ruffle a usar o tamanho correto */
+        ruffle-player {
+            width: 550px;
+            height: 400px;
+        }
+
+        .descricao-animacao {
+            font-size: 1.5rem;
+            max-width: 600px;
+            margin: 15px auto 40px auto;
+            font-weight: normal;
+        }
+
+        .contato {
+            font-size: 1.4rem;
+            max-width: 650px;
+            margin: 0 auto 50px auto;
+            color: #cccccc;
+            font-weight: normal;
+        }
+
+        .contato a {
+            color: #ff3333;
+            text-decoration: none;
+        }
+
+        .contato a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #333333;
+            font-size: 1.2rem;
+        }
+
+        footer a {
+            color: #ff3333;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            color: #ff6666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Foto do topo -->
+        <img src="foto combate louco.png" alt="Logo Combate Louco">
+
+        <!-- Título principal -->
+        <h1>COMBATE LOUCO: O Madness Combat chegou ao Brasil!</h1>
+
+        <!-- Container da animação Flash (.swf) -->
+        <div class="animacao-container">
+            <object data="Combate Louco.swf" type="application/x-shockwave-flash" width="550" height="400">
+                <param name="movie" value="Combate Louco.swf">
+                <param name="quality" value="high">
+                <param name="allowScriptAccess" value="always">
+            </object>
+        </div>
+
+        <!-- Descrição da animação -->
+        <p class="descricao-animacao">
+            tudo tem um inicio, e esse foi o inicio do Combate Louco. no caso essa é a primeira animação. eu achei que ficou bom :)
+        </p>
+
+        <!-- Seção de Contato/Críticas -->
+        <p class="contato">
+            não gostou do site? problema é seu! rsrs zueira. de criticas possitivas ou negativas pro meu site pra eu tentar melhorar: <a href="mailto:limaongarchives@gmail.com">limaongarchives@gmail.com</a>
+        </p>
+
+        <!-- Rodapé com o aviso do Ruffle -->
+        <footer>
+            esse site só funciona com a extensão do Ruffle! baixe a extensão do Ruffle bem aqui: 
+            <a href="https://google.com" target="_blank">Clique aqui para baixar o Ruffle</a>
+        </footer>
+    </div>
+
+</body>
+</html>
